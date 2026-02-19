@@ -1,4 +1,3 @@
-# Keji-Cao-assignment-week-4
 <!-- Back to top link -->
 <a name="readme-top"></a>
 <br />
