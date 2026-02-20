@@ -3,7 +3,6 @@ Unsupervised Classification of Sentinel-3 Radar Echoes: Sea Ice vs. Leads
 
 <div align="center">
   <br>
-  <img src="https://sentinels.copernicus.eu/documents/247904/1877131/Sentinel-3_SRAL_Product_Overview" alt="Sentinel-3 SRAL Concept" width="480">
   <h4>Discriminating sea ice and leads using Gaussian Mixture Modelling on altimetry waveforms</h4>
 </div>
 
@@ -70,7 +69,7 @@ Mean echo shapes clearly separate the specular lead signature (sharp peak, high 
 
 Individual echoes are shifted to align peaks using cross-correlation. The figure compares original (blue) vs. aligned (red) waveforms for selected sea-ice and lead examples, reducing apparent noise in statistics.
 
-![Waveform alignment examples](alignment_samples.png)
+![Waveform alignment examples](alignment samples.png)
 
 ### 3. Histogram of Waveforms per Predicted Cluster
 
