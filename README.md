@@ -64,32 +64,32 @@ GMM was selected over K-means for its probabilistic assignments and better handl
 
 Mean echo shapes clearly separate the specular lead signature (sharp peak, high power) from the diffuse sea-ice response (lower amplitude, broader shape). Shaded regions show ±1 standard deviation.
 
-![Mean and std per class](mean_std_plot.png)
+![Mean and std per class](mean&standard deviation.png)
 
 ### 2. Waveform Alignment Demonstration
 
 Individual echoes are shifted to align peaks using cross-correlation. The figure compares original (blue) vs. aligned (red) waveforms for selected sea-ice and lead examples, reducing apparent noise in statistics.
 
-![Waveform alignment examples](alignment_examples.png)
+![Waveform alignment examples](alignment_samples.png)
 
 ### 3. Histogram of Waveforms per Predicted Cluster
 
 Distribution of all waveforms assigned to each GMM cluster (leads = 1, sea ice = 0). Leads show tighter, higher-amplitude concentration; sea ice exhibits wider spread.
 
-![Lead cluster histogram](lead_histogram.png)  
-![Sea ice cluster histogram](seaice_histogram.png)
+![Lead cluster histogram](lead.cluster.png)  
+![Sea ice cluster histogram](sea ice cluster.png)
 
 ### 4. Confusion Matrix – GMM vs. ESA Official Classification
 
 Near-perfect agreement is achieved (accuracy ≈ 99.7%). Only 46 total misclassifications out of 12,195 valid points.
 
-![Confusion matrix](confusion_matrix.png)
+![Confusion matrix](confusion_matrix_gmm.png)
 
 ### 5. Feature Space Visualization (GMM clusters)
 
 Scatter plot in reduced feature space showing clear separation between predicted classes.
 
-![GMM feature scatter](gmm_scatter.png)
+![GMM feature scatter](GMM.png)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
